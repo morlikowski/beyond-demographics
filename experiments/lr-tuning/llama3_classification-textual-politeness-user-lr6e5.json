@@ -1,0 +1,191 @@
+{
+    "defaults": {
+        "data_path": "shared_data/processed/merged_data.csv",
+        "train_using_lora": true,
+        "output_model_name": "llama3_classification",
+        "base_model": "meta-llama/Meta-Llama-3-8B",
+        "model_dtype": "bf16",
+        "training_dtype": "bf16",
+        "do_quantization": false,
+        "do_train_as_classification": true,
+        "binarize_labels": false,
+        "eval_split": "val",
+        "split_based_on": "user",
+        "tasks": [
+            "politeness"
+        ],
+        "learning_rate": 6e-05
+    },
+    "settings": [
+        {
+            "seed": 536804,
+            "annotator_attributes": {
+                "race": {
+                    "use_description": true
+                },
+                "gender": {
+                    "use_description": true
+                },
+                "age": {
+                    "use_description": true
+                },
+                "education": {
+                    "use_description": true
+                }
+            }
+        },
+        {
+            "seed": 3208936010,
+            "annotator_attributes": {
+                "race": {
+                    "use_description": true
+                },
+                "gender": {
+                    "use_description": true
+                },
+                "age": {
+                    "use_description": true
+                },
+                "education": {
+                    "use_description": true
+                }
+            }
+        },
+        {
+            "seed": 701702170,
+            "annotator_attributes": {
+                "race": {
+                    "use_description": true
+                },
+                "gender": {
+                    "use_description": true
+                },
+                "age": {
+                    "use_description": true
+                },
+                "education": {
+                    "use_description": true
+                }
+            }
+        },
+        {
+            "seed": 1506676066,
+            "annotator_attributes": {
+                "race": {
+                    "use_description": true
+                },
+                "gender": {
+                    "use_description": true
+                },
+                "age": {
+                    "use_description": true
+                },
+                "education": {
+                    "use_description": true
+                }
+            }
+        },
+        {
+            "seed": 621609371,
+            "annotator_attributes": {
+                "race": {
+                    "use_description": true
+                },
+                "gender": {
+                    "use_description": true
+                },
+                "age": {
+                    "use_description": true
+                },
+                "education": {
+                    "use_description": true
+                }
+            }
+        },
+        {
+            "seed": 2454110510,
+            "annotator_attributes": {
+                "race": {
+                    "use_description": true
+                },
+                "gender": {
+                    "use_description": true
+                },
+                "age": {
+                    "use_description": true
+                },
+                "education": {
+                    "use_description": true
+                }
+            }
+        },
+        {
+            "seed": 1124617826,
+            "annotator_attributes": {
+                "race": {
+                    "use_description": true
+                },
+                "gender": {
+                    "use_description": true
+                },
+                "age": {
+                    "use_description": true
+                },
+                "education": {
+                    "use_description": true
+                }
+            }
+        },
+        {
+            "seed": 2591124800,
+            "annotator_attributes": {
+                "race": {
+                    "use_description": true
+                },
+                "gender": {
+                    "use_description": true
+                },
+                "age": {
+                    "use_description": true
+                },
+                "education": {
+                    "use_description": true
+                }
+            }
+        },
+        {
+            "seed": 2969282657,
+            "annotator_attributes": {
+                "race": {
+                    "use_description": true
+                },
+                "gender": {
+                    "use_description": true
+                },
+                "age": {
+                    "use_description": true
+                },
+                "education": {
+                    "use_description": true
+                }
+            }
+        },
+        {
+            "seed": 1435485536,
+            "annotator_attributes": {
+                "race": {
+                    "use_description": true
+                },
+                "gender": {
+                    "use_description": true
+                },
+                "age": {
+                    "use_description": true
+                },
+                "education": {
+                    "use_description": true
+                }
+            }
+        }
+    ]
+}

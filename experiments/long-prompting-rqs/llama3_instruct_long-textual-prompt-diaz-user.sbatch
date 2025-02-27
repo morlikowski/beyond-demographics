@@ -1,0 +1,27 @@
+#!/bin/bash
+#SBATCH --partition=gpu
+#SBATCH --gres=gpu:1
+#SBATCH --cpus-per-task=2
+#SBATCH --time=1-00
+#SBATCH --exclude worker-10
+#SBATCH --tmp=30G
+if [[ -n "$SLURM_JOB_ID" ]]; then
+    source /homes/morlikowski/multi-annotator/.venv/bin/activate
+    export HF_HOME=$SLURM_JOB_TMP
+fi
+
+export TOKENIZERS_PARALLELISM=true
+
+CONFIG=experiments/long-prompting-rqs/llama3_instruct_long-textual-prompt-diaz-user.json
+NUM_SETTINGS=$(cat $CONFIG | python3 -c "import json, sys; print(len(json.load(sys.stdin)['settings']))")
+let "MAX_INDEX = $NUM_SETTINGS - 1"
+echo "Running settings 0 to $MAX_INDEX from $CONFIG"
+
+for i in $(seq 0 $MAX_INDEX);
+do
+    python3 -m multi_annotator.eval $CONFIG $i models -hf_token_path=hf_token.txt
+done
+
+if [[ -n $SLURM_JOB_ID ]]; then
+    deactivate
+fi
