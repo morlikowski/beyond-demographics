@@ -10,10 +10,10 @@ The DEMO dataset is a curated and further unified collection of existing dataset
     - Dataset: [Intimacy](https://codalab.lisn.upsaclay.fr/competitions/7096#learn_the_details)
     - Paper: [SemEval 2023 Task 9: Multilingual Tweet Intimacy Analysis](https://arxiv.org/abs/2210.01108)
 - *Politeness*
-    - Dataset: [Politeness](https://github.com/Jiaxin-Pei/Potato-Prolific-Dataset/tree/main/dataset/politeness_rating)
+    - Dataset: [POPQUORN - Politeness](https://github.com/Jiaxin-Pei/Potato-Prolific-Dataset/tree/main/dataset/politeness_rating)
     - Paper: [When Do Annotator Demographics Matter? Measuring the Influence of Annotator Demographics with the POPQUORN Dataset](https://arxiv.org/abs/2306.06826)
 - *Offensiveness*
-    - Dataset: [Offensiveness](https://github.com/Jiaxin-Pei/Potato-Prolific-Dataset/tree/main/dataset/offensiveness)
+    - Dataset: [POPQUORN - Offensiveness](https://github.com/Jiaxin-Pei/Potato-Prolific-Dataset/tree/main/dataset/offensiveness)
     - Paper: [When Do Annotator Demographics Matter? Measuring the Influence of Annotator Demographics with the POPQUORN Dataset](https://arxiv.org/abs/2306.06826)
 - *Safety*
     - Dataset: [DICES-350](https://github.com/google-research-datasets/dices-dataset/tree/b5596d9edd585361967991a591abc7b11fb1f7a3/350)
