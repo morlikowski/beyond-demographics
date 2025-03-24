@@ -1,6 +1,18 @@
 # Beyond Demographics (ARR Dec'24)
 
-This repository contains code and data for "Beyond Demographics: Fine-tuning Large Language Models to Predict Individuals’ Subjective Text Perceptions". If any content in this repository is useful for your work, please cite our paper.
+This repository contains code and data for "Beyond Demographics: Fine-tuning Large Language Models to Predict Individuals’ Subjective Text Perceptions". If any content in this repository is useful for your work, please cite our paper (available as [preprint on arXiv](https://arxiv.org/abs/2502.20897)).
+
+```
+@misc{orlikowski2025demographicsfinetuninglargelanguage,
+      title={Beyond Demographics: Fine-tuning Large Language Models to Predict Individuals' Subjective Text Perceptions}, 
+      author={Matthias Orlikowski and Jiaxin Pei and Paul Röttger and Philipp Cimiano and David Jurgens and Dirk Hovy},
+      year={2025},
+      eprint={2502.20897},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2502.20897}, 
+}
+```
 
 ## DEMO dataset
 
