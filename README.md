@@ -1,22 +1,10 @@
 # Beyond Demographics (ACL 2025)
 
-This repository contains code and data for "Beyond Demographics: Fine-tuning Large Language Models to Predict Individuals’ Subjective Text Perceptions". If any content in this repository is useful for your work, please cite our paper, accpeted at ACL 2025 Main and available as [preprint on arXiv](https://arxiv.org/abs/2502.20897).
-
-```
-@misc{orlikowski2025demographicsfinetuninglargelanguage,
-      title={Beyond Demographics: Fine-tuning Large Language Models to Predict Individuals' Subjective Text Perceptions}, 
-      author={Matthias Orlikowski and Jiaxin Pei and Paul Röttger and Philipp Cimiano and David Jurgens and Dirk Hovy},
-      year={2025},
-      eprint={2502.20897},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2502.20897}, 
-}
-```
+This repository contains code and data for "Beyond Demographics: Fine-tuning Large Language Models to Predict Individuals’ Subjective Text Perceptions". If any content in this repository is useful for your work, please cite our paper, published at[ACL 2025](https://aclanthology.org/2025.acl-long.104/).
 
 ## DEMO dataset
 
-The DEMO dataset is a curated and further unified collection of existing datasets. Details are reported in the paper ([Link](https://arxiv.org/abs/2502.20897)). DEMO is distributed as a CSV file in `shared_data/processed/merged_data.csv`. Code to load DEMO as we do in our experiments is contained in `multi_annotator/data.py`. **If you use DEMO in your work, please cite our paper *as well as the individual datasets*.** Below we include information on the original dataset for each task included in DEMO.
+The DEMO dataset is a curated and further unified collection of existing datasets. Details are reported in the paper ([Link](https://aclanthology.org/2025.acl-long.104/)). DEMO is distributed as a CSV file in `shared_data/processed/merged_data.csv`. Code to load DEMO as we do in our experiments is contained in `multi_annotator/data.py`. **If you use DEMO in your work, please cite our paper *as well as the individual datasets*.** Below we include information on the original dataset for each task included in DEMO.
 
 - *Intimacy*
     - Dataset: [Multilingual Tweet Intimacy Analysis](https://codalab.lisn.upsaclay.fr/competitions/7096#learn_the_details)
