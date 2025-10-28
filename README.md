@@ -1,6 +1,6 @@
 # Beyond Demographics (ACL 2025)
 
-This repository contains code and data for "Beyond Demographics: Fine-tuning Large Language Models to Predict Individuals’ Subjective Text Perceptions". If any content in this repository is useful for your work, please cite our paper, published at[ACL 2025](https://aclanthology.org/2025.acl-long.104/).
+This repository contains code and data for "Beyond Demographics: Fine-tuning Large Language Models to Predict Individuals’ Subjective Text Perceptions". If any content in this repository is useful for your work, please cite our paper, published at [ACL 2025](https://aclanthology.org/2025.acl-long.104/).
 
 ## DEMO dataset
 
